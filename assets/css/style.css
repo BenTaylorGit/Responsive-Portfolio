@@ -91,93 +91,48 @@ h2 {
     margin-right: 20px;
   }
 
-/* Portfolio page image styling */
-.portfolioImage {
-    position: relative;
-    float: left;
-    text-align: center;
-    margin-right: 40px;
-    margin-bottom: 40px;
-  }
 
 /* portfolio image hover effect */
-.portfolioImage:hover{
+.work img:hover{
     opacity: 0.7;
   }
-
-/* aligning text above respective portfolio image */
-.topLeft {
-    position: absolute;
-    top: 220px;
-    left: 20px;
-    background-color: #4aaaa5;
-    color: white;
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-left: 88px;
-    padding-right:87px;
-    font-size: 15px;
-    text-align: center;
+  .work {
+    position: relative;
+    float: left;
+    width: 240px;
+    margin: 20px 20px 25px;
+    overflow: auto;
   }
 
-/* aligning text above respective portfolio image */
-.topRight {
-    position: absolute;
-    top: 220px;
-    left: 300px;
-    background-color: #4aaaa5;
-    color: white;
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-left: 82px;
-    padding-right:81px;
-    font-size: 15px;
-    text-align: center;
+  
+
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+    
   }
 
-/* aligning text above respective portfolio image */
-.middleLeft {
+  .work p {
     position: absolute;
-    top: 417px;
-    left: 20px;
-    background-color: #4aaaa5;
-    color: white;
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-left: 80px;
-    padding-right:79px;
-    font-size: 15px;
+    bottom: 20px;
+    width: 210px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
     text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
   }
-
-/* aligning text above respective portfolio image */
-.middleRight {
-    position: absolute;
-    top: 417px;
-    left: 300px;
-    background-color: #4aaaa5;
-    color: white;
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-left: 54px;
-    padding-right:54px;
-    font-size: 15px;
-    text-align: center;
-  }
-
-/* aligning text above respective portfolio image */
-.bottomLeft{
-    position: absolute;
-    top: 619px;
-    left: 20px;
-    background-color: #4aaaa5;
-    color: white;
-    padding-top:10px;
-    padding-bottom: 10px;
-    padding-left: 51px;
-    padding-right:50px;
-    font-size: 15px;
-    text-align: center;
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
   }
 
 /* styling for text on about me page */
@@ -243,3 +198,205 @@ a:active {
     color: #333;
   }
   
+
+  @media screen and (max-width: 768px) {
+   
+    .contentContainer {
+      width: 90%;
+    }
+
+    .myName {
+      padding-right: 30px;
+      padding-left: 30px;
+      /* left: 480px; */
+      position: static;
+      background: #4aaaa5;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    .image {
+      float: left;
+      
+      margin-bottom: 20px;
+    }
+
+    #header {
+    background: #ffffff;
+    border: #cccccc;
+    margin: auto;
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+
+    .textLine{
+      width:100%;
+    }
+
+    .textBox{
+      width:100%
+    }
+
+   .work{
+     width: 43%;
+
+     margin-right: 20px;
+   }
+
+  .work p {
+    width:92.1%;
+  }
+  
+  footer {
+
+    margin-top: 20px;
+    bottom: 0;
+    position: static;
+  }
+
+  .nav {
+    position: relative;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    float: right;
+    right: 20%;
+  }
+  }
+
+  @media screen and (max-width: 980px) {
+    .contentContainer {
+      width: 90%;
+    }
+
+    .myName {
+      padding-right: 30px;
+      padding-left: 30px;
+      left: 30px;
+      position: absolute;
+      background: #4aaaa5;
+    }
+
+    .nav {
+      position: relative;
+      padding-top: 30px;
+      padding-right: 15px;
+      padding-bottom: 30px;
+      float: right;
+      right: 5%;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    .image {
+      float: left;
+      
+      margin-bottom: 20px;
+    }
+
+    #header {
+    background: #ffffff;
+    border: #cccccc;
+    margin: auto;
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+
+    .textLine{
+      width:100%;
+    }
+
+    .textBox{
+      width:100%
+    }
+
+   .work{
+     width: 43%;
+
+     margin-right: 20px;
+   }
+
+  .work p {
+    width:92.1%;
+  }
+  
+  footer {
+
+    margin-top: 20px;
+    bottom: 0;
+    position: static;
+  }
+    
+  }
+
+  @media screen and (max-width: 640px) {
+  
+    .contentContainer {
+      width: 80%;
+    }
+
+    .myName {
+      padding-right: 30px;
+      padding-left: 30px;
+      /* left: 480px; */
+      position: static;
+      background: #4aaaa5;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    .image {
+      float: none;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    #header {
+    background: #ffffff;
+    border: #cccccc;
+    margin: auto;
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+
+    .textLine{
+      width:100%;
+    }
+
+    .textBox{
+      width:100%
+    }
+
+   .work{
+     width:100%;
+     margin:0;
+   }
+
+  .work p {
+    width:95%;
+  }
+
+  footer {
+
+    margin-top: 20px;
+    bottom: 0;
+    position: static;
+  }
+
+  .nav {
+    position: relative;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    float: right;
+    right: 27%;
+  }
+
+   
+  }
